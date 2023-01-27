@@ -1,0 +1,24 @@
+.flex{
+    display:flex;
+    justify-content: space-around;
+}
+
+.total{
+    align-items: baseline;
+    height: 25vh;
+    background-image:url(/assets/img/favi.ico);
+}
+
+.board{
+    justify-items: center;
+    width: 100vw;
+    height: 70vh;
+}
+
+.player{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
