@@ -1,24 +1,55 @@
 .flex{
     display:flex;
     justify-content: space-around;
+    background-color: aquamarine;
 }
 
 .total{
     align-items: baseline;
-    height: 25vh;
+    height: 18vh;
+    opacity: 0.75;
     background-image:url(/assets/img/favi.ico);
 }
 
-.board{
-    justify-items: center;
-    width: 100vw;
-    height: 70vh;
-}
 
 .player{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
 }
 
+img{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    border: 3px solid #201120 ;
+    border-radius: 20% 20%;
+    margin: 2% 2%;
+}
 
+.rooling{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    margin: auto;
+}
+
+.control{
+    display: flex; 
+    flex-direction: column;
+}
+
+.current{
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 20%;
+}
+
+.footer{
+    text-align: center;
+}
